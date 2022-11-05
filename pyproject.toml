@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "robojiro"
+version = "0.1.0"
+description = ""
+authors = ["木瓜丸 <boke0@boke0ya.com>"]
+license = "GPL-3-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.2.2"
+numpy = "^1.23.4"
+pandas = "^1.5.1"
+gensim = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
